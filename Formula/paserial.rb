@@ -1,16 +1,16 @@
 class Paserial < Formula
   desc "PAN-OS serial console CLI — automatise les commandes PAN-OS via console série"
   homepage "https://github.com/jiiro974/paserial-release"
-  version "0.3.0"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jiiro974/paserial-release/releases/download/v0.3.0/paserial-darwin-arm64"
-      sha256 "86a28a11a7681e9161b1e36137f64b991f4e697e66cb6ffe1f48b0805c9738eb"
+      url "https://github.com/jiiro974/paserial-release/releases/download/v0.3.2/paserial-darwin-arm64"
+      sha256 "a64fefbd4a4571e2f9b3949495abb190c62199ea88f68f93bd1934c21ed4a5f0"
     else
-      url "https://github.com/jiiro974/paserial-release/releases/download/v0.3.0/paserial-darwin-amd64"
-      sha256 "8987299b132316100d61c5be39c865bb3efe7d354dc79e5230382c2f6582ed75"
+      url "https://github.com/jiiro974/paserial-release/releases/download/v0.3.2/paserial-darwin-amd64"
+      sha256 "92a9bef8b1dcb4e32f543d97935b1a29ca837457ae25aafd203e7331ff88150f"
     end
   end
 
